@@ -1,0 +1,192 @@
+*{
+    margin: 0px;
+}
+
+
+body{
+background: rgb(219, 233, 172);
+color: rgb(219, 233, 172);
+}
+
+.Segunda{
+    background: rgb(219, 233, 172);
+    color: rgb(4, 40, 7);
+    font-size: 50px;
+    text-align: center;
+    height: 190px;
+}
+.Segunda p{
+    font-size: 25px;
+}
+
+.Segunda2{
+    background:rgb(219, 233, 172);
+    color: rgb(4, 40, 7);
+    padding: 5px 40px;
+    text-align: center;
+}
+.galería{
+    display: flex;
+    overflow: auto;
+    padding: 16px;
+}
+.card{
+    margin-right: 10px;
+    position: relative;
+}
+.cuerpo-card{
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    background-color:rgba(0, 0, 0, 0.499) ;
+    color: rgb(219, 233, 172);
+}
+.cuerpo-card h5{
+    margin: 0;
+}
+.card img{
+    width: 150px;
+    object-fit: cover;
+    height: 250px;
+}
+/*
+.Padre{
+    background: rgb(219, 233, 172);
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    height: 500px;
+    align-items: center;
+}
+.Hijo{
+    background: rgb(219, 233, 172);
+    width: 200px;
+    height: 200px;
+    border: 2px solid rgb(4, 40, 7);
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+*/
+.aplicar{
+    height: 500px;
+    background: rgb(219, 233, 172);
+    display: flex;
+    color: rgb(4, 40, 7);
+}
+.aplicar-detalles{
+    width: 50%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    padding: 0px 30px;
+    text-align: center;
+}
+.aplicar-boton{
+    width: 250px;
+    height: 40px;
+    background-color:  rgb(4, 40, 7);
+    color: rgb(219, 233, 172);
+    border-radius: 24px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.aplicar-detalles img{
+    height:97%;
+    width: 600px;
+    margin-left: 90px;
+}
+.aplicar2{
+    height: 500px;
+    background: rgb(219, 233, 172);
+    display: flex;
+    color: rgb(4, 40, 7);
+    padding: 120px;
+}
+.aplicar4-detalles{
+    width: 80%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    padding: 0px 30px;
+    text-align: center;
+    background: rgb(248, 255, 226);
+}
+.aplicar3-detalles{
+    width: 25%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    padding: 0px 30px;
+    text-align: center;
+    background: rgba(156, 172, 102, 0.774);
+}
+.Galería-boton{
+    width: 40px;
+    height: 40px;
+    background-color: rgba(156, 172, 102, 0.774);
+    color: rgb(4, 40, 7);
+    border-radius: 24px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 12px;
+}
+.Galería-boton img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+.menu{
+    color: rgb(4, 40, 7);
+    background: rgb(97, 130, 49);
+    height: inherit;
+}
+.header{
+    background:rgb(149, 179, 103);
+    color:  rgb(4, 40, 7);
+    display:flex ;
+    justify-content:space-between ;
+    height:105px ;
+}
+.logo{
+    background: rgb(185, 218, 136);
+    color:  rgb(4, 40, 7);
+    padding: 5px 5px;
+}
+.logo img{
+    width: 95px;
+}
+ul{
+    list-style:none ;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    height: inherit;
+}
+.header a{
+    color: rgb(4, 40, 7);
+    text-decoration: none;
+    height: inherit;
+    display: flex ;
+    align-items:center ;
+    padding: 0px 10px;
+}
+.header li{
+    height: inherit;
+}
